@@ -172,3 +172,162 @@
     justify-content: center;
     flex-direction: column;
 }
+
+.nemudar{
+    height: 25vh;
+    background: #42beee;
+    border-radius: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* align-content: space-around; */
+}
+
+.circle_div_1{
+    height: 20vh;
+    width: 20vh;
+    background: #e87270;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+    padding: 0;
+    font-size: 20px;
+}
+.circle_div_1_2{
+    height: 15vh;
+    width: 15vh;
+    background-image: linear-gradient(-90deg, #f9e0e4 70% , #da97a2 80%);
+    /* TODO : rang kardane behtar */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+    padding: 0;
+}
+.circle_div_1_3{
+    height: 10vh;
+    width: 10vh;
+    background: #e87270;       
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+}
+
+.circle_div_2{
+    height: 20vh;
+    width: 20vh;
+    background: #b171e1;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+    padding: 0;
+    font-size: 20px;
+}
+.circle_div_2_2{
+    height: 15vh;
+    width: 15vh;
+    background-image: linear-gradient(-90deg, #e6e6fe 70% , #bd9bd7 80%);
+    /* TODO : rang kardane behtar */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+    padding: 0;
+}
+.circle_div_2_3{
+    height: 10vh;
+    width: 10vh;
+    background: #b171e1;       
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+}
+
+.circle_div_3{
+    height: 20vh;
+    width: 20vh;
+    background: #44ce76;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+    padding: 0;
+    font-size: 20px;
+}
+.circle_div_3_2{
+    height: 15vh;
+    width: 15vh;
+    background-image: linear-gradient(-90deg, #e6e6fe 70% , #81dca3 80%);
+    /* TODO : rang kardane behtar */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+    padding: 0;
+}
+.circle_div_3_3{
+    height: 10vh;
+    width: 10vh;
+    background: #44ce76;       
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+}
+
+.circle_div_4{
+    height: 20vh;
+    width: 20vh;
+    background: #eac553;
+    border-radius: 50%;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+    padding: 0;
+    font-size: 20px;
+}
+.circle_div_4_2{
+    height: 15vh;
+    width: 15vh;
+    background-image: linear-gradient(-90deg, #e6e6fe 70% , #e8cf7b 80%);
+    /* TODO : rang kardane behtar */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+    padding: 0;
+}
+.circle_div_4_3{
+    height: 10vh;
+    width: 10vh;
+    background: #eac553;       
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; 
+}
