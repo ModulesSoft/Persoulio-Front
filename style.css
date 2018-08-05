@@ -105,7 +105,7 @@
 
 .friends{
     /* position:relative; */
-    background: linear-gradient(120deg ,
+    background: linear-gradient(105deg ,
     #45446e,
     #45446e 33% ,
     #7a77ba 33%,
@@ -146,4 +146,29 @@
 }
 .num_font_size{
     font-size: 60px;
+}
+
+.contact_info{
+    background: #a8f0ff;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content : space-around;
+    align-items: center
+}
+
+.moshaver{
+    margin-left: 10px;
+    /* background: red; */
+    border-left: 3px solid white;
+    height: 100%; width: 30%;
+    display: flex;
+
+    color: white;
+    /* align-items: center;
+    align-content: center; */
+    text-align: left;
+    /* padding: 10px; */
+    justify-content: center;
+    flex-direction: column;
 }
