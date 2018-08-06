@@ -376,13 +376,14 @@
     /* margin-top: 10px; */        
 }
 .tozihat_panel{
-    min-height: 14vh;
+    min-height: 34vh;
     max-height: 45vh;
     overflow-y: scroll;
     background: red;
     background: linear-gradient(to top,#b787f7 , #9e50eb);
     /* background: #9e50eb; */
     /* background: #b787f7; */
+    /* position: absolute; */
     display: flex;
     flex-direction: column;
 }
