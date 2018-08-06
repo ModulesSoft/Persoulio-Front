@@ -77,7 +77,7 @@
     height: 30vh;
 }
 .right_screen_width{
-    width: 50%;
+    width: 60%;
 }
 .score_width{
     width: 40%;
@@ -88,10 +88,11 @@
     font-size: 10px;
     padding: 5px;
     padding-right: 10px;
+    /* border-bottom: 5px solid white; */
 }
 .tip{
-    height: 10vh;
-    width: 10vh;
+    height: 8vh;
+    width: 8vh;
     border-radius: 50%;
     color: white;
     text-align: center;
@@ -440,4 +441,17 @@
 
     text-decoration: none; */
 
+}
+
+.transparency{
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";       /* IE 8 */
+    filter: alpha(opacity=50);  /* IE 5-7 */
+    -moz-opacity: 0.5;          /* Netscape */
+    -khtml-opacity: 0.5;        /* Safari 1.x */
+    opacity: 0.5;          
+    background: #f2ddc3;
+    height: calc(60% + 25px);
+    margin-top: -25px;
+    margin-right: -10px;
+    margin-left: -5px;
 }
