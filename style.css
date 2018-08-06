@@ -449,9 +449,75 @@
     -moz-opacity: 0.5;          /* Netscape */
     -khtml-opacity: 0.5;        /* Safari 1.x */
     opacity: 0.5;          
-    background: #f2ddc3;
-    height: calc(60% + 25px);
+    background: #ebc08c;
+    height: calc(60% + 30px);
     margin-top: -25px;
     margin-right: -10px;
     margin-left: -5px;
+    /* display: table; */
+
 }
+
+/* Skew the container one way */
+/* .skewed {
+    margin-top: 100px;
+    background-color: red;
+    width: 100%;
+    transform: skewY(-10deg);
+}  */
+
+/* aside {
+    background: blue;
+    display: flex;
+    width: 100%;
+    /* margin: 50px auto 0; */
+    /* padding: 20px; */
+    /* width: 200px; */
+    /* box-sizing: border-box;
+    box-shadow: 0 0 20px rgba(0,0,0,.9); */
+    /* border-radius: 25px; */
+/* }
+
+.skew-neg {
+    -webkit-transform: skewY(-2deg);
+    -moz-transform: skewY(-2deg);
+    -ms-transform: skewY(-2deg);
+    -o-transform: skewY(-2deg);
+    transform: skewY(-2deg);
+}
+
+.skew-pos {
+    -webkit-transform: skewY(2deg);
+    -moz-transform: skewY(2deg);
+    -ms-transform: skewY(2deg);
+    -o-transform: skewY(2deg);
+    transform: skewY(2deg);
+}  */
+
+.container1 {
+    overflow: hidden;
+  }
+  
+  #parallelogram {
+    width: 100%;
+    height: 100px;
+    margin: 0 0 0 -20px;
+    /* -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg); */
+    background: red;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .image {
+    background: url(http://placekitten.com/301/301);
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    right: -30px;
+    bottom: -30px;
+    /* -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg); */
+  }
