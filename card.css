@@ -1,0 +1,86 @@
+
+.card{
+/* margin-bottom: 24px; */
+/* background-color: #fff; */
+/* border: 1px solid transparent; */
+color: white;
+border-radius: 0;
+padding-top: 15px;
+}
+.card-body{
+    padding: 8px;
+    padding-right: 20px; 
+    display: table;
+    
+}
+.card-heading{
+     /* padding: 8px;  */
+}
+.card-footer{
+     text-align: left;
+     padding-left: 30px;
+}
+
+.card-left{ position: relative; padding: 0 0 8px 0;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+.card-swap .card-left{ padding: 0 0 8px 0; 
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 30px;
+ }
+.card-right{ position: relative; padding: 8px 0 0 0;
+    padding-left: 50px;
+}
+.card-swap .card-right{ padding: 0 0 8px 0;
+    padding-left: 50px;
+  }
+
+@media( min-width: 768px )
+{
+    .card-left{ float: left; padding: 0 8px 0 0;
+        padding-top: 50px;    padding-left: 10px;
+        padding-right: 30px;
+
+
+ }
+    .card-swap .card-left{ padding: 0 0 0 8px;
+        padding-top: 50px;    padding-left: 10px;
+        padding-right: 30px;
+
+
+ }
+    .card-right{ float: left; padding: 0 0 0 8px;
+        padding-left: 50px;
+ }
+    .card-swap .card-right{ padding: 0 8px 0 0;
+        padding-left: 50px;
+ }
+
+    .card-5-7 .card-left{ width: 41.66666667%; }
+    .card-5-7 .card-right{ width: 58.33333333%; }
+    .card-5-7 .card-swap .card-left{ width: 41.66666667%; left: 58.33333333%; }
+    .card-5-7 .card-swap .card-right{ width: 58.33333333%; right: 41.66666667%; }
+
+    .card-6-6 .card-left{ width: 50%; }
+    .card-6-6 .card-right{ width: 50%; }
+    .card-6-6 .card-swap .card-left{ left: 50%; }
+    .card-6-6 .card-swap .card-right{ right: 50%; }
+
+    .card-7-5 .card-left{ width: 58.33333333%; }
+    .card-7-5 .card-right{ width: 41.66666667%; }
+    .card-7-5 .card-swap .card-left{ width: 41.66666667%; left: 58.33333333%; }
+    .card-7-5 .card-swap .card-right{ width: 58.33333333%; right: 41.66666667%; }  
+
+    .card-8-4 .card-left{ width: 66.66666667%; }
+    .card-8-4 .card-right{ width: 33.33333333%; }
+    .card-8-4 .card-swap .card-left{ width: 33.33333333%; left: 66.66666667%; }
+    .card-8-4 .card-swap .card-right{ width: 66.66666667%; right: 33.33333333%; }
+
+    .card-9-3 .card-left{ width: 75%; }
+    .card-9-3 .card-right{ width: 25%; }
+    .card-9-3 .card-swap .card-left{ width: 25%; left: 75%; }
+    .card-9-3 .card-swap .card-right{ width: 75%; right:25%; }
+}
