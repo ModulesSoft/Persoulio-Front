@@ -387,3 +387,11 @@
     display: flex;
     flex-direction: column;
 }
+
+.a_ok_color{
+    color: inherit;
+    /* display: block;
+
+    text-decoration: none; */
+
+}
