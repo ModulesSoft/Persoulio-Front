@@ -157,10 +157,11 @@
     height: 50%;  
     color: white;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     text-align: center;
     padding: 10px;
-    justify-content: center;  
+    padding-bottom: 0px; 
+    justify-content: center;   
 }
 .medals{
     background:#c4e9c8;       
