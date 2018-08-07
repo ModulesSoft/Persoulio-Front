@@ -473,6 +473,7 @@
     margin-top: 10px;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+    overflow: hidden;
     min-height: 50vh;
     text-align: center;
     display: flex;
@@ -484,8 +485,8 @@
 .menu_2{
     display: table;
     /* align-content: space-between; */
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    /* border-top-left-radius: 15px;
+    border-top-right-radius: 15px; */
     align-items: center;
     table-layout: fixed;
     width: 100%;
