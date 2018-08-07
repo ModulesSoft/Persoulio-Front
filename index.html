@@ -123,7 +123,7 @@
                   </a>
                 </div>
               </div>
-              <div class="tozihat_panel">
+              <div class="tozihat_panel" id="div1">
                   <a class="a_ok_color" href="#">
                   <div class="card">
                   <div class="card card-9-3">
@@ -252,6 +252,8 @@
                       </div>
                     </a>
                   </div>
+
+                  <!-- todo -->
                   <div class="transparency" >
                     <!-- <div class="skewed">
                       salam
@@ -338,6 +340,7 @@
               </div>
             </div>
           </div>
+       
           <div class="contact_info margin_left margin_top corner_rounded">
             <a href="#"> <i class="far fa-calendar-alt fa-4x" style="color:white"></i> </a>
             <a href="#"> <i class="fas fa-camera fa-4x" style="color:white"></i></a>
@@ -369,7 +372,7 @@
       </div>  
 
 
-      <!-- small popup samples -->
+      <!-- popup samples -->
       <br><br><br><br><br>
       <div class="modal_small">
           <div class="modal_content_small">
@@ -388,12 +391,10 @@
       </div>
       <br><br><br><br><br></br></br>
       <br><br><br><br><br></br></br>
-
-
       <div class="modal_large">
         <div class="modal_content_large">
           <span class="close_button_large">&times;</span>
-          <div class="multy_nemudar">
+          <div class="multy_nemudar" id="div3">
             <div class="chart-container" style="width: 50vh;">
               <canvas id="myChart" style=""></canvas>
               <script>
@@ -530,7 +531,7 @@
       <div class="modal_medal" >
         <div class="modal_content_medal">
           <span class="close_button_medal">&times;</span>
-          <div class="multy_medal">
+          <div class="multy_medal" id="div2">
             <div>
               <img src="assets/medal.png" class="medal_popup_img_size img-responsive">
               <p> مقام نخست مسابقات کشوری در بین دانشگاه های ایران </p>
@@ -562,10 +563,30 @@
           </div>
         </div>
       </div>
-      
-        
-
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script type="text/javascript" src="jquery.nicescroll/jquery.js"></script>
+      <script type="text/javascript" src="jquery.nicescroll/jquery.nicescroll.min.js"></script>
+      <script type="text/javascript">
+        $(document).ready(
+          function() { 
+            $("#div1").niceScroll({
+              cursorcolor:"#F0A",
+              cursorwidth: 4
+            });
+            $("#div2").niceScroll({
+              cursorcolor:"#F0A",
+              cursorwidth: 4
+            });
+            $("#div3").niceScroll({
+              cursorcolor:"#F0A",
+              cursorwidth: 4
+            });
+            $("html").niceScroll({
+              cursorcolor:"#F0A",
+              cursorwidth: 4
+            });
+          }
+        );
+      </script>
       <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     </body>
