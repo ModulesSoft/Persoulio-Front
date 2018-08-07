@@ -501,7 +501,6 @@
     /* align-content: space-between; */
     background: linear-gradient(to top,#c596f1 , #cd92f9);
     /* background: red; */
-    /* margin-right: -10px; */
     align-items: center;
     table-layout: fixed;
     width: 100%;
@@ -543,8 +542,32 @@
     margin-top: -25px;
     margin-right: -10px;
     margin-left: -5px;
-    /* display: table; */
-
+    overflow: hidden;
+    color: #43045c;
+}
+.transparency_1{
+    height: 33%;
+    padding: 10px;
+    display: flex;
+    background: #f5debf;
+    align-items: center;
+    justify-content: flex-end;
+}
+.transparency_2{
+    height: 34%;
+    padding: 10px;
+    display: flex;
+    background: #ebd3af;
+    align-items: center;
+    justify-content: flex-start;
+}
+.transparency_3{
+    height: 33%;
+    padding: 10px;
+    display: flex;
+    background: #e1cfb5;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 /* Skew the container one way */
