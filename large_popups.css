@@ -45,12 +45,13 @@
 } */
 
 .multy_nemudar{
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
     /* align-items: center;
     align-content: space-around;
     justify-content: center; */
     overflow-x: scroll;
+    white-space: nowrap;
     width: 100%;
     padding-left: 30px;
     padding-right: 30px;
@@ -59,5 +60,7 @@
     height: 40vh;
     margin-left: 10px;
     margin-right: 10px;
+    white-space: normal;
+    display: inline-block;
     /* background: black; */
 }
