@@ -1,8 +1,15 @@
+@font-face {
+    font-family: "yekan";
+    src: url('fonts/b-yekan.ttf') format('truetype'); 
+}
+*{
+    font-family:"yekan";
+}
+
 ::-webkit-scrollbar {
     width: 2px;
     height: 2px;
 }
-
 ::-webkit-scrollbar-thumb{
     background: #18184e;
 }
