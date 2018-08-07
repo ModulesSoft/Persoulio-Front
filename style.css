@@ -56,15 +56,15 @@
 
 .header {
     height: 70px;
-    line-height: 70px;
+    line-height: 64px;
     top: 0;
     width: 100%;
 }
 
 .user_header{
     background: #facb5f; 
-    height: 70px;
-    line-height: 70px;
+    height: 65px;
+    line-height: 65px;
     color: white;
     border-radius: 15px;
     font-size: 30px;
@@ -83,7 +83,7 @@
 .prof_img_border{
     margin-right: 20px;
     margin-left: 20px;
-    border-left: 1px solid rgb(228, 217, 217);
+    border-left: 1px solid rgb(173, 173, 173);
 }
 
 .right_screen{
@@ -501,7 +501,7 @@
     /* align-content: space-between; */
     background: linear-gradient(to top,#c596f1 , #cd92f9);
     /* background: red; */
-    margin-right: -10px;
+    /* margin-right: -10px; */
     align-items: center;
     table-layout: fixed;
     width: 100%;
