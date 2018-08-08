@@ -29,6 +29,7 @@
     padding-top: 5%;
     padding-bottom: 5%;
 }
+
 .left_2_left_item_3{
     height: 100%;
     width: 100%;
@@ -38,6 +39,9 @@
     margin-top: 10%;
     align-items: center;
     cursor: pointer;
+}
+.left_2_left_item_3_card_1 >img:hover{
+    opacity: 0.9;
 }
 .left_2_left_item_3_card_1{
     width: 5vw;
@@ -96,6 +100,10 @@
     overflow-y: scroll;
     padding-right: 5%;
     padding-left: 3%;
+}
+
+.left_2_right_item:hover .left_2_right_item_2_left > img{
+    opacity: 0.9;
 }
 .left_2_right_item{
     width: 100%;
