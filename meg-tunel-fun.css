@@ -194,6 +194,7 @@ a:hover{
 }
 .right_3_week_day{
     height: 10vh;
+    margin-bottom: -1px;
     border-bottom: 1px solid #c9c8b5;
     font-size: 0;
     display: flex;
