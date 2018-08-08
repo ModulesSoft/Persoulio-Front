@@ -65,7 +65,7 @@
     justify-content: flex-end;
     font-size: 35;
     font-weight: 600;
-    color: rgb(94, 94, 94);
+    color: rgb(119, 119, 119);
 }
 .left_2_item_left_frame_2{
     width: 100%;
@@ -73,8 +73,8 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    font-size: 30;
-    font-weight: 600;
+    font-size: 18px;
+    font-weight: 300;
     color: rgb(151, 151, 151);
 }
 .left_2_item_left_frame_3{
@@ -92,7 +92,7 @@
     margin-right: 10px;
     height: 35px;
     width: 35px;
-    background: red;
+    background: rgb(206, 25, 25);
     color: white;
     border-radius: 50%;
     font-size: 18px;
