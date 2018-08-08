@@ -27,23 +27,39 @@
         <div style="display: flex; flex-direction: row; height: 90%">
           <div class="left">
             <div class="left_1">
-              <div class="div_yek_sevvom left_1_font">
+              <a href="#"><div class="div_yek_sevvom left_1_font">
                 <div class="centered_text_div">
                   پرسولیو فان
                 </div>
-              </div>
-              <div class="div_yek_sevvom left_1_font yellow_background">
+              </div></a>
+              <a href="#"><div class="div_yek_sevvom left_1_font yellow_background">
                 <div class="centered_text_div">
                   تونل
                 </div>
-              </div>
-              <div class="div_yek_sevvom left_1_font">
+              </div></a>
+              <a href="#"><div class="div_yek_sevvom left_1_font">
                 <div class="centered_text_div">
                   پرسولیو مگ
                 </div>
+              </div></a>
+            </div>
+            <div class="left_2" id="div2">
+              <div class="left_2_item">
+                <div class="left_2_item_left">
+                  <div class="left_2_item_left_frame"></div>
+                </div>
+                <div class="left_2_item_right">
+                  <a href="#" class="a_ok_color">
+                    <div class="left_2_item_right_frame">  
+                      <img class="img_fill_div img-responsive" src="assets/spiderman.jpg">
+                      <div class="kargah_title">
+                        <p>کارگاه خودتو بشناس</p>
+                      </div>
+                    </div>
+                  </a>
+                </div>
               </div>
             </div>
-            <div class="left_2"></div>
           </div>
           <div class="right">  
             <div class="right_1">
@@ -118,6 +134,10 @@
         $(document).ready(
           function() { 
             $("#div1").niceScroll({
+              cursorcolor:"#F0A",
+              cursorwidth: 4
+            });
+            $("#div2").niceScroll({
               cursorcolor:"#F0A",
               cursorwidth: 4
             });

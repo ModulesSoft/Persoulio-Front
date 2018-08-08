@@ -57,23 +57,18 @@
 }
 .left_1{
     background: #e8e8e8;
-    height: 12%;
+    height: 13%;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 15px;
-    border-radius: 30px;
+    /* border-bottom: 15px solid white; */
+    border-radius: 15px;
     font-size: 0;
 }
 .left_1_font{
     font-size: 27px;
     font-weight: 800;
     color: #8d8d8d;
-}
-.left_2{
-    background: blue;
-    height: 80%;
-
 }
 .div_yek_sevvom{
     display: inline-block;
@@ -82,11 +77,65 @@
 }
 .yellow_background{
     background: #eec558;
-    height: calc(100% + 20px);   
-    border-radius: 20px;
-    margin-top: -10px;
+    height: calc(100% + 30px);   
+    border-radius: 30px;
+    margin-top: -15px;
     color: white;
 }
+.left_2{
+    background: blue;
+    height: 87%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+.left_2_item{
+    height: 75%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background: #f1f1f1;
+    border-radius: 15px;
+    margin-top: 30px;
+    font-size: 0;
+}
+.left_2_item_right{
+    display: inline-block;
+    height: 100%;
+    font-size: 20px;
+    width: 55%;
+    background: #eec558;
+}
+.left_2_item_right_frame{
+    width: 100%;
+    height: calc(100% + 40px);
+    margin-top: -20px;
+    background: #ea7b86;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.kargah_title{
+    font-size: 32px;
+    font-weight: 900;
+    color: white;
+    margin-top: -15%;
+    text-align: right;
+    padding-right: 20%;
+}
+.left_2_item_left{
+    font-size: 20px;
+    display: inline-block;
+    height: 100%;
+    width: 45%;
+    /* background: #b247a5; */
+}
+.left_2_item_left_frame{
+    width: 100%;
+    height: 100%;
+    margin-top: -20px;
+    background: yellow;;
+}
+
 
 .right{
     height: 100%;
