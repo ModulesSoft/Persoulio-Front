@@ -52,12 +52,45 @@
 
 .left{
     height: 100%;
-    width: 80%;
+    width: 75%;
+    padding-top: 40px;
+}
+.left_1{
+    background: #e8e8e8;
+    height: 12%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    font-size: 0;
+}
+.left_1_font{
+    font-size: 27px;
+    font-weight: 800;
+    color: #8d8d8d;
+}
+.left_2{
+    background: blue;
+    height: 80%;
+
+}
+.div_yek_sevvom{
+    display: inline-block;
+    height: 100%;
+    width: 33.33%;
+}
+.yellow_background{
+    background: #eec558;
+    height: calc(100% + 20px);   
+    border-radius: 20px;
+    margin-top: -10px;
+    color: white;
 }
 
 .right{
     height: 100%;
-    width: 20%;
+    width: 25%;
     border-left: 2px solid rgb(180, 180, 180);
     padding-top: 12px;
     padding-left: 15px;
@@ -169,7 +202,6 @@
     align-items: center;
     align-content: center;
 }
-
 .right_3_week_day_left{
     display: inline-block;
     width: 65%;
