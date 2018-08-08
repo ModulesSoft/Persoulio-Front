@@ -17,6 +17,7 @@
     font-size:40px;
     /* line-height: 90px ; */
     text-align: center;
+    cursor: pointer;
 }
 
 .header {
@@ -37,6 +38,7 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    cursor: pointer;
 }
 
 .user_pic{
