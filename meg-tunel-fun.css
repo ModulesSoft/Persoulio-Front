@@ -75,12 +75,19 @@
     height: 100%;
     width: 33.33%;
 }
+.div_yek_sevvom:hover{
+    background: #c9c8b5;
+}
 .yellow_background{
     background: #eec558;
     height: calc(100% + 30px);   
     border-radius: 30px;
     margin-top: -15px;
     color: white;
+}
+.yellow_background:hover{
+    background: #f4d459;
+    
 }
 .left_2{
     height: 87%;
@@ -306,7 +313,6 @@
     font-size: 23px;
     font-weight: 500;
     color: rgb(85,85,85);
-    
 }
 .right_3_week_day_right{
     display: inline-block;
@@ -329,6 +335,7 @@
     background: #e9e9e9;
     height: 4vh;
     width: 7vw;
+    cursor: pointer;
 }
 .my_button:hover{
     background: #8b8080;
