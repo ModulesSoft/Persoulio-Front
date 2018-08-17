@@ -61,7 +61,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    /* background: cyan; */
+    background: cyan;
     border-radius: 30px;
     height: 100%;
     width: 60%;
