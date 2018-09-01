@@ -1,0 +1,189 @@
+.popup_container{
+    width: 60%;
+    height: 70vh;
+    margin: auto;
+    margin-top: 15vh;
+    /* background: yellow; */
+    border-radius: 8vh;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    /* grid-template-rows: 70% 30; */
+    box-shadow: 0px 0px 4px #fff ;
+}
+.left{
+    height: 100%;
+    width: 100%;
+    padding: 6vh;
+    background: #d1d1d1;
+    display: grid;
+    grid-template-columns: 49% 3% 48%;
+}
+.left_left{
+    height: 100%;
+    width: 100%;
+    /* background: blue; */
+    display: grid;
+    overflow: hidden;
+    grid-template-rows: 60% 3% 37%;
+    /* box-sizing: border-box; */
+}
+.left_right{
+    height: 100%;
+    width: 100%;
+    /* background: red; */
+    display: grid;
+    grid-template-rows: 15% 85%;
+}
+.left_right_1{
+    width: 100%;
+    color: white;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    /* background: greenyellow; */
+    direction: rtl;
+}
+.left_right_2{
+    width: 100%;
+    cursor: pointer;
+    /* background: orange; */
+}
+.event_images{
+    width: 100%;
+    height: 100%;
+    /* margin-top: 0px; */
+    /* max-height: 100%; */
+    border-radius: 5px;
+}
+.left_left > div{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.right{
+    background: #fafafa;
+    width: 100%;
+    height: 100%;
+    /* background: red; */
+    display: grid;
+    grid-template-rows: 65% 35%;
+}
+.right_1{
+    /* background: green; */
+    padding-top: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+.right_1_1{
+    width: 100%;
+    height: 40%;
+    /* background: orangered; */
+    display: grid;
+    grid-template-columns: 37% 63%; 
+}
+.ted_logo{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+.ted_text{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-size: 27px;
+    font-weight: 500;
+    color: rgb(43, 43, 43);
+    align-items: center;
+    padding-bottom: 10%;
+}
+.ted_text > p{
+    margin: 0px;
+    padding: 0px;
+    /* background: yellow; */
+}
+.ted_text > div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.ted_text_circ{
+    height: 1vh;
+    width: 1vh;
+    background: gray;
+    border-radius: 50%;
+    margin: 0.5vh;
+}
+.right_1_2{
+    /* background: white; */
+    color: gray;
+    padding-left: 2%;
+    font-size: 21px;
+    font-weight: 400;
+    text-align: right;
+}
+.right_2{
+    /* background: yellow; */
+    height: 100%;
+    width: 100%;
+}
+.right_2_1{
+    background: rgb(226, 226, 226);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+    height: 24%;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.right_2_1 > div{
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -1px;
+    border-right: 1px solid rgb(233, 232, 232);
+}
+.righ2_2{
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 19px;
+    font-weight: 400;
+    /* background: pink; */
+}
+.righ2_2 > span{
+    margin: 1%;
+}
+.right_2_3{
+    position: relative;
+    background: rgb(74, 214, 61);
+    height: 25%;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    font-weight: 600;
+}
+.plus{
+    display: inline;
+    height: 100%;
+    /* background: yellow; */
+    /* position: absolute; */
+    /* top: 0px; */
+}

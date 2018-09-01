@@ -1,0 +1,105 @@
+.left_2{
+    height: 45%;
+    width: 100%;
+    /* background: blue; */
+    margin-top: 3%;
+    padding-left: 1%;
+    overflow-x: scroll;
+    white-space: nowrap;
+    overflow-y: hidden;
+    font-size: 0px;
+}
+
+.left_2 > div{
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    margin-right: 2%;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-right: 1%;
+    cursor: pointer;
+}
+
+.left_3{
+    font-size: 26px;
+    font-weight: 500;
+    display: flex;
+    padding-right: 4%;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    height: 7%;
+}
+
+.left_4{
+    width: 100%;
+    height: 30%;
+    /* background: blue; */
+    overflow-x: scroll;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 2%;
+    padding-right: 2%;
+    /* align-items: flex-start; */
+    justify-content: space-around;
+}
+
+.cart{
+    font-size: 30px;
+    width: 26%;
+    height: 44%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.cart_img_container{
+    width: 27%;
+    height: 100%;
+    background: #bebebe;
+    background: linear-gradient(to top, #bebebe , white ,#bebebe);
+    padding: 10px;
+    padding-top: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.cart_img_container:hover{
+    background: gray;
+}
+.cart_img_container > div{
+    height: 100%;
+    width: 100%;
+    background: yellow;
+    box-shadow: 0px 5px 5px rgb(112, 112, 112);
+}
+.cart_text{
+    /* padding-top: 5%; */
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    margin-left: 5%;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.cart_text > :nth-child(1){
+    color: rgb(45, 45, 45);
+    font-size: 26px;
+    font-weight: 600;
+}
+.cart_text > :nth-child(2){
+    color: rgb(107, 107, 107);
+    font-size: 15px;
+    /* font-weight: 500; */
+}
+.cart_text > :nth-child(2) > span{
+    color: #bebebe;
+    font-size: 14px;
+}
+.cart_text > :nth-child(3){
+    color: rgb(87, 87, 87);
+    font-size: 15px;
+    font-weight: 300;
+}

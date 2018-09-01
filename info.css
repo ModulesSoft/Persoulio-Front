@@ -127,6 +127,8 @@
 }
 .img_box:hover{
     z-index: 1;
+    width:15vh;
+    height:15vh;
 }
 .img_box:hover p{
     visibility: visible;
