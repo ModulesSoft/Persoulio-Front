@@ -2,6 +2,10 @@
     font-family: "yekan";
     src: url('fonts/b-yekan.ttf') format('truetype'); 
 }
+@font-face {
+    font-family: "ghasem";
+    src: url('fonts/AGhasem.ttf') format('truetype'); 
+}
 *{
     font-family:"yekan";
 }

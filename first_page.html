@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8"> 
+        <!-- Bootstrap -->
+         <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css" />
+         <!-- <link rel="stylesheet" href="style.css" /> -->
+         <!-- <link rel="stylesheet" href="card.css" /> -->
+         <!-- <link rel="stylesheet" href="small_popups.css" /> -->
+         <!-- <link rel="stylesheet" href="medals_popups.css" /> -->
+        <link rel="stylesheet" href="first_page.css" />
+        <!-- <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"> -->
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+<title> first page</title>
+        <style> </style>
+    </head>
+    <body>
+    <div class="my_container" id="page1">
+        <div class="login" >
+            <img src="assets/login_background" class="fill_div img-responsive" />
+            <div class="login_container">
+                <img src="assets/background.jpg" class="img-responsive fill_div" />
+                <div>
+                    <div>
+                        <div>پرسولیو</div>
+                        <div>خودتو پیدا کن</div>
+                    </div>
+                    <div>
+                        <div class="vorud">ورود :</div>
+                            <div class="fill_div flex_x">
+                                <div class="fill_div">
+                                <div class="student">دانشجویان</div>
+                                <div class="other">سایر</div>
+                            </div>
+                            <div class="uni_login  hide">
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>مشاوران</div>
+                        <div class="active_login">کاربران</div>
+                        <div>ایونت گذاران</div>
+                    </div>
+                </div>
+            </div>
+            <div class="login_info">
+                <div>
+                    <p>حمایت از سوی دانشگاه تهران</p    >
+                    <img src="assets/ut_logo" />
+                </div>
+                <div>
+                    برید حالشو ببرید
+                    <br/>
+                    با دانشگاه تهرانم این رلیم
+                </div>
+            </div>
+        </div> 
+        <div class="hover_page">
+            <img class="hover_page_background img-responsive" src="assets/hover_background" />
+            <div class="hover_left">
+                <script>
+                    function fout(){
+                        document.getElementById('1h').style.color = 'black';
+                        document.getElementById('1h').classList.remove("active_hover");
+                    }
+                    function f(){
+                        document.getElementById('1l').style.visibility = 'visible';
+                        document.getElementById('1c').style.visibility = 'visible';
+                        document.getElementById('2l').style.visibility = 'hidden';
+                        document.getElementById('2c').style.visibility = 'hidden';
+                        document.getElementById('3l').style.visibility = 'hidden';
+                        document.getElementById('3c').style.visibility = 'hidden';
+                        document.getElementById('4l').style.visibility = 'hidden';
+                        document.getElementById('4c').style.visibility = 'hidden';
+                        document.getElementById('1h').style.color = 'white';
+                        document.getElementById('1h').classList.add("active_hover");
+                        document.getElementById('2h').classList.remove("active_hover");
+                        document.getElementById('3h').classList.remove("active_hover");
+                        document.getElementById('4h').classList.remove("active_hover");
+                    }
+                    function g(){
+                        document.getElementById('2l').style.visibility = 'visible';
+                        document.getElementById('2c').style.visibility = 'visible';
+                        document.getElementById('1l').style.visibility = 'hidden';
+                        document.getElementById('1c').style.visibility = 'hidden';
+                        document.getElementById('3l').style.visibility = 'hidden';
+                        document.getElementById('3c').style.visibility = 'hidden';
+                        document.getElementById('4l').style.visibility = 'hidden';
+                        document.getElementById('4c').style.visibility = 'hidden';
+                        document.getElementById('2h').classList.add("active_hover");
+                        document.getElementById('1h').classList.remove("active_hover");
+                        document.getElementById('3h').classList.remove("active_hover");
+                        document.getElementById('4h').classList.remove("active_hover");
+                    }
+                    function h(){
+                        document.getElementById('3l').style.visibility = 'visible';
+                        document.getElementById('3c').style.visibility = 'visible';
+                        document.getElementById('2l').style.visibility = 'hidden';
+                        document.getElementById('2c').style.visibility = 'hidden';
+                        document.getElementById('1l').style.visibility = 'hidden';
+                        document.getElementById('1c').style.visibility = 'hidden';
+                        document.getElementById('4l').style.visibility = 'hidden';
+                        document.getElementById('4c').style.visibility = 'hidden';
+                        document.getElementById('3h').classList.add("active_hover");
+                        document.getElementById('1h').classList.remove("active_hover");
+                        document.getElementById('2h').classList.remove("active_hover");
+                        document.getElementById('4h').classList.remove("active_hover");
+                    }
+                    function j(){
+                        document.getElementById('3l').style.visibility = 'hidden';
+                        document.getElementById('3c').style.visibility = 'hidden';
+                        document.getElementById('2l').style.visibility = 'hidden';
+                        document.getElementById('2c').style.visibility = 'hidden';
+                        document.getElementById('1l').style.visibility = 'hidden';
+                        document.getElementById('1c').style.visibility = 'hidden';
+                        document.getElementById('4l').style.visibility = 'visible';
+                        document.getElementById('4c').style.visibility = 'visible';
+                        document.getElementById('4h').classList.add("active_hover");
+                        document.getElementById('1h').classList.remove("active_hover");
+                        document.getElementById('2h').classList.remove("active_hover");
+                        document.getElementById('3h').classList.remove("active_hover");
+                    }
+                </script>
+                <div class="hover_left_row">
+                    <div>
+                        <div id="4l">سنجش</div>
+                        <div class="hover_left_row_nav vis_hover" id="4c" ></div>
+                    </div>
+                    <div class="hover_left_row_rast_container">
+                        <div class="hover_left_row_rast  active_hover" id="4h" onmouseover="j()">
+                           <img class="hover_icon" src="assets/zarebin2" />
+                        </div>
+                    </div>
+                </div>
+                <div class="hover_left_row">
+                    <div class="left_row_2">
+                        <div class="item1tosiye" id="1l">توصیه</div>
+                        <div class="left_row_2_2" id="2l">کارگاه</div>
+                        <div class="left_row_2_3" id="3l">کلاس</div>
+                        <div class="hover_left_row_nav" id="1c"></div>
+                        <div class="hover_left_row_nav_2" id='2c'></div>
+                        <div class="hover_left_row_nav_3" id='3c'></div>
+                    </div>
+                    <div class="hover_left_row_rast_container" >
+                        <div class="hover_left_row_rast hover_left_row_rast_2"  id="1h" >
+                            <div style="width: 100%; height: 20%;display: flex;
+                            justify-content: center; align-items: center" onmouseover="f()" onmouseout="fout()">توصیه</div>
+                            <div class="with_border" id="2h" onmouseover="g()"> <img class="hover_icon" src="assets/zarebin2" /> </div>
+                            <div class="with_border" id="3h" onmouseover="h()"> <img class="hover_icon" src="assets/zarebin2" /> </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hover_left_row">
+                    <div></div>
+                    <div class="hover_left_row_rast_container">
+                        <div class="hover_down">
+                            <img src="assets/zarebin2" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hover_right">
+                <div class="hover_right_header">
+                    <div class="big_title">
+                       <div> مسیر پرسولیو </div>
+                       <div> مسیر توسعه فردی</div>     
+                    </div>
+                    <img class="fill_div img-responsive" src="assets/zarebin"/>
+                </div>
+                <div class="hover_right_text" id="sc1">
+                        خودتو پیدا کن
+                        <br/><br/>
+                        با روش‌های مختلفی که پرسولیو بهت ارائه میده خودتو بهتر بشناس، اینجوری بهتر میتونی در کنار لذت بردن از لحظاتت کارای مفید بکنی و کمک میکنه همه فعالیت‌هات متناسب با ویژگی های شخصی خودت باشن
+                        <br/>
+                        ما بهت کمکت میکنیم تا : 
+                        <br/>
+                        - با ابعاد مختلف شخصیتت آشنا بشی
+                        <br/>
+                        - استعداد های خودتو بهتر بشناسی
+                        <br/>
+                        - علاقه مندی ها و مهارت‌هاتو دسته بندی کنی
+                        <br/>
+                        - با تکنیک های مختلفی که بهت معرفی میکنیم سبک زندگیتو بهبود بدی 
+                        <br/>
+                </div>
+            </div>
+        </div>
+        <div class="coach_page">
+            <img class="coach_page_background img-responsive" src="assets/coach_background" />
+            <div class="coach_page_container" >
+                <div>
+                    <div class="circ1">
+                        <div class="circ2">
+                            <div class="circ3">
+                                <div class="circ4">
+                                    <img class="fill_div img-responsive img-circle" src="assets/circ" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="coach_text"  id="sc2">
+                        <div> کوچینگ</div>
+                        <div>
+                            هدفگذاری کن و وارد مسیر شو
+                            همه‌‌ي ما ممکنه برای هدف گذاری و پیگیری اهدافمون نیاز به مشورت و انگیزه‌دهی داشته باشیم، یکی که تو مسیر ارتقای توامندی ها و مواجه شدن با مشکلات احتمالی این مسیر کنارمون باشه و بتونیم باهاش راه‌حل مواجه شدن با مشکلات رو پیدا کنیم، پرسولیو برای برطرف کردن این نیاز خدمت خیلی خوبی برات در نظر گرفته
+                            تو میتونی در مسیر پیشرفتت مربی شخصی داشته باشی و همیشه یکی رو تو مسیر همراه خودت داشته باشی
+                            همه‌‌ي ما ممکنه برای هدف گذاری و پیگیری اهدافمون نیاز به مشورت و انگیزه‌دهی داشته باشیم، یکی که تو مسیر ارتقای توامندی ها و مواجه شدن با مشکلات احتمالی این مسیر کنارمون باشه و بتونیم باهاش راه‌حل مواجه شدن با مشکلات رو پیدا کنیم، پرسولیو برای برطرف کردن این نیاز خدمت خیلی خوبی برات در نظر گرفته
+                            تو میتونی در مسیر پیشرفتت مربی شخصی داشته باشی و همیشه یکی رو تو مسیر همراه خودت داشته باشی
+                            مربی یا کوچ  تو بهت کمک میکنه بهتر هدفگذاری کنی و البته مهمتر اینکه درراه رسیدن به اهدافت همیشه کنارت می‌مونه                 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="coach_page">
+            <img class="coach_page_background img-responsive" src="assets/coach_background" />
+            <div class="coach_2">
+                <div>پنل کوچینگ</div>
+                <div>
+                    <div class="coach_2_container">
+                        <div class="coach_2_contents">
+                            <div>
+                                <div>مربی</div>
+                                <img src="assets/ut_logo" class="img-circle img-responsive coach_img" />
+                            </div>
+                            <div id="pop_div_1">
+                                <div> 
+                                    این کارا رو انجام بده                                 
+                                </div> 
+                                <div class="coach_jobs">
+                                    <div> <img class="img-responsive" src="assets/spiderman.jpg" /> </div>
+                                    <div> <img class="img-responsive" src="assets/ted" /> </div>                                                                        
+                                    <div> <img class="img-responsive" src="assets/spiderman.jpg" /> </div>
+                                    <div> <img class="img-responsive" src="assets/ted" /> </div>      
+                                </div> 
+                            </div>
+                            <div id="pop_div_2">
+                                <div> 
+                                  با هم قرار داریم                      
+                                </div> 
+                                <div class="job_titles"> 
+                                    <div>                                  
+                                        <div class="fill_div flex_y">
+                                            <div> سه شنبه </div>
+                                            <div> ۱۰:۳۰ </div>
+                                        </div>
+                                    </div>
+                                    <div>                                  
+                                        <div class="fill_div flex_y">
+                                            <div> سه شنبه </div>
+                                            <div> ۱۰:۳۰ </div>
+                                        </div>
+                                    </div>
+                                    <div>                                  
+                                        <div class="fill_div flex_y">
+                                            <div> سه شنبه </div>
+                                            <div> ۱۰:۳۰ </div>
+                                        </div>
+                                    </div>
+                                    <div>                                  
+                                        <div class="fill_div flex_y">
+                                            <div> سه شنبه </div>
+                                            <div> ۱۰:۳۰ </div>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                            <div id="pop_div_3">
+                                <div> 
+                                    برنامه هفتگی
+                                </div> 
+                                <div class="week_plan">
+                                    <img src="assets/week" class="img-responsive fill_div" />
+                                </div>
+                            </div>
+                            <script>
+                                function change(id1, id2,id3){
+                                    var name;
+                                    if(id3=="b1")
+                                    {
+                                        name="move_1"
+                                    }
+                                    if(id3=="b2")
+                                    {
+                                        name="move_2"
+                                    }
+                                    if(id3=="b3")
+                                    {
+                                        name="move_3"
+                                    }
+                                    if(document.getElementById(id1).innerHTML == '<i class="fa fa-minus"></i>')
+                                    {
+                                        document.getElementById(id1).innerHTML = '<i class="fa fa-plus"></i>';
+                                        document.getElementById(id2).classList.remove("active_div");
+                                        document.getElementById(id3).classList.remove(name);
+                                    }
+                                    else
+                                    {
+                                        document.getElementById(id1).innerHTML = '<i class="fa fa-minus"></i>';
+                                        document.getElementById(id2).classList.add("active_div");
+                                        document.getElementById(id3).classList.add(name);
+                                    }
+                                }
+
+                            </script>
+                            <div id="b1" class="button_1" data-toggle="popover" data-placement="right"
+                                data-content="ه گزارش ورزش سه، شروع جان توشاک در تبریز شروع خوبی نبود. 3 بازی و دو امتیاز. ازده بود تراکتورسازی راه خود را با این مربی بزرگ پیدا خواهد کرد و این چنین هم شد. " >
+                                <div class="button_sign" id="popover1" onclick='change("popover1", "pop_div_1" ,"b1")'>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                            </div>
+                            <div  id="b2" class="button_2" data-toggle="popover" data-placement="left"
+                                data-content="ه گزارش ورزش سه، شروع جان توشاک در تبریز شروع خوبی نبود. 3 بازی و دو امتیاز. ازده بود تراکتورسازی راه خود را با این مربی بزرگ پیدا خواهد کرد و این چنین هم شد. " >
+                                <div class="button_sign" id="popover2" onclick='change("popover1", "pop_div_2","b2")'>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                            </div>
+                            <div  id="b3" class="button_3" data-toggle="popover" data-placement="left"
+                                data-content="ه گزارش ورزش سه، شروع جان توشاک در تبریز شروع خوبی نبود. 3 بازی و دو امتیاز. ازده بود تراکتورسازی راه خود را با این مربی بزرگ پیدا خواهد کرد و این چنین هم شد. " >
+                                <div class="button_sign" id="popover3" onclick='change("popover1", "pop_div_3", "b3")'>
+                                    <i class="fa fa-plus"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>  
+
+      <script type="text/javascript" src="jquery.nicescroll/jquery.js"></script>
+      <script type="text/javascript" src="jquery.nicescroll/jquery.nicescroll.min.js"></script>
+      <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init({
+            duration: 1200
+        });
+      </script> -->
+      <script type="text/javascript">
+        $(document).ready(
+          function() { 
+            $('[data-toggle="popover"]').popover();   
+            $("#sc1").niceScroll({
+              cursorcolor:"#F0A",
+              cursorwidth: 4
+            });
+            $("#sc2").niceScroll({
+              cursorcolor:"#F0A",
+              cursorwidth: 4
+            });
+          }
+        );
+      </script>
+      <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    </body>
+</html>
