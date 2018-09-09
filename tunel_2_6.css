@@ -1,0 +1,84 @@
+
+.left{
+    display: grid;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    grid-template-rows: 15% 85%;
+    background: linear-gradient(to top, white,#ececec);
+}
+
+.left_3{
+    /* background: violet; */
+    padding-bottom: 2%;
+    height: 100%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto; 
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+}
+.left_3 > div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 3px solid #989898;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 400;
+    color: #575757;
+}
+.left_3 > div.active{
+    color: #5cebe6;
+    border-bottom: 3px solid #5cebe6;
+}
+.left_2{
+    height: 100%;
+    width: 100%;
+    /* background: cyan; */
+    position: relative;
+}
+.img_fill_div{
+    height: 100%;
+    width: 100%;
+}
+.left_2 > :nth-child(1)
+{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 40%;
+    height: 40%;
+    /* width: 100px; */
+    /* height: 100px; */
+    border: 1px solid black;
+    background: red;
+}
+
+.left_2 > :nth-child(2)
+{
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    width: 40%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    /* background: red; */
+    padding: 0px 10%;
+}
+.left_2 > :nth-child(2) > div > :nth-child(1){
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+}
+.left_2 > :nth-child(2) > div > :nth-child(2){
+    color: gray;
+    font-size: 22px;
+    font-weight: 500;
+}

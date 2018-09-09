@@ -1,0 +1,36 @@
+
+.left_2{
+    height: calc(87% - 30px);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+    /* background: cyan; */
+    padding-left: 7%;
+    padding-right: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* todo */
+}
+.left_2_item{
+    position: relative;
+    height: 85%;
+    width: 25;
+    background: #f1f1f1;
+    border-radius: 15px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.left_2_item_img{
+    height: 100%;
+    width: 100%;
+}
+.left_2_item_text{
+    position: absolute;
+    bottom: 5%;
+    right: 9%;
+    color: white;
+    font-size: 35px;
+    font-weight: 500;
+    z-index: 2;
+}
