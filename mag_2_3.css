@@ -1,0 +1,229 @@
+:focus{outline: none;}
+
+.left_2{
+    height: calc(87% - 30px);
+    margin-top: 30px;
+    /* background: cyan; */
+}
+
+.left_2_1{
+    height: calc(95% - 10px);
+    margin-top: 10px;
+    /* background: blue; */
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: grid;
+    grid-template-columns: 3% 1% 96%;
+}
+
+.left_2_1 > div{
+    height: 100%;
+    width: 100%;
+    max-height: 100%;
+}
+.books{
+    overflow-y: scroll;
+    position: relative;
+    background: cyan;
+    background: #e2a219;
+    border: 4px solid brown;
+}
+
+
+.left_2_2{
+    height: calc(20% - 10px);
+    margin-top: 10px;
+    /* background: gray; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.left_2_3{
+    height: calc(30% - 10px);
+    margin-top: 10px;
+    /* background: green; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.left_2_2 > div{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px;
+    cursor: pointer;
+}
+.left_2_2 > :nth-child(1){
+    margin-left: 20px;
+}
+.left_2_2 > :nth-last-child(1)
+{
+    margin-right: 20px;
+}
+.left_2_2 > div > img{
+    height: 100%;
+    width: 100%;
+}
+
+.left_2_3 > div{
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px;
+}
+.left_2_3 > :nth-child(1){
+    margin-left: 20px;
+}
+.left_2_3 > :nth-last-child(1)
+{
+    margin-right: 20px;
+}
+.left_2_3 > div > img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.book_row{
+    position: relative;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* background: cyan; */
+}
+
+.book_container{
+    cursor: pointer;
+    z-index: 2;
+    width: 15%;
+    margin: 0px 10px;
+}
+.book_container:hover{
+    width: 18%
+}
+.book {
+    width: 100%;
+    height: auto;   
+	padding: 15px 0 0 0;
+    margin: auto;
+    /* -webkit-filter: blur(1px); */
+    /* filter: blur(1px); */
+}
+.shelf {
+    width: 95%;
+    left:2.5%;
+    position: absolute;
+    /* margin-top: -10px; */
+	border-bottom: 20px solid #a5a5a5;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+	bottom: 5px;
+	z-index: 1;
+}
+.shelf2 {
+    position: absolute;
+    bottom: 0px;
+	content: '';
+	background: #686868;
+    height: 5px;
+    left: 2.5%;
+    width: 95%;
+	z-index: 1;
+}
+
+.left_2_1_right{
+    max-height: 100%;
+    max-width: 100%;
+    background: greenyellow;
+    overflow: hidden;
+    border-radius: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.m1{
+    height: 10%;
+    background: rgb(202, 39, 66);
+    color: white;
+    border-color: white;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.m1 > div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.m1 > :nth-child(1){
+    justify-content: flex-end;
+    padding-right: 1%;
+    width: 5%;
+    /* background: blue; */
+}
+.m1 > :nth-child(1) > i{
+    cursor: pointer;
+}
+.m1 > :nth-child(2){
+    justify-content: flex-end;
+    padding-right: 2%;
+    width: 10%;
+    /* background: red; */
+}
+.m1 > :nth-child(2) > i{
+    cursor: pointer;
+    margin-left: 10%;
+}
+.m1 > :nth-child(3){
+    position: relative;
+    width: 100%;
+    height: 60%;
+    top: 20%;
+    border: 1px solid;
+    /* background: blue; */
+}
+.m1 > :nth-child(3) > i{
+    cursor: pointer;
+}
+.m1 > :nth-child(4){
+    padding-right: 1%;
+    width: 25%;
+    justify-content: flex-start;
+    /* background: red; */
+    direction: rtl;
+}
+.search_area{
+    border: unset;
+    height: 100%;
+    width: 100%;
+    background: unset;
+    text-align: center;
+}
+.search_icon{
+    position: absolute;
+    right: 5px;
+}
+
+.m2{
+    height: 90%;
+    width: 100%;
+    background: cyan;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
