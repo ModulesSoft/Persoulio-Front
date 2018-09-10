@@ -16,6 +16,12 @@
         <style> </style>
     </head>
     <body>
+            <script>
+                    function change_login(){
+                        document.getElementById('login_1').classList.add("hide");
+                        document.getElementById('login_2').classList.remove("hide");
+                    }
+                </script>
     <div class="my_container" id="page1">
         <div class="login" >
             <img src="assets/login_background" class="fill_div img-responsive" />
@@ -27,13 +33,11 @@
                         <div>خودتو پیدا کن</div>
                     </div>
                     <div>
-                        <script>
-                            function change_login(){
-                                document.getElementById('login_1').classList.add("hide");
-                                document.getElementById('login_2').classList.remove("hide");
-                            }
-                        </script>
-                        <div class="vorud">ورود :</div>
+                        <div class="vorud">ورود :
+                            <div class="back_pos">
+                                <i class="fas fa-chevron-left"></i> 
+                            </div>
+                        </div>
                         <div class="fill_div flex_x">
                             <div class="fill_div" id="login_1">
                                 <div class="student" onclick="change_login()">دانشجویان</div>
@@ -61,7 +65,7 @@
             </div>
             <div class="login_info">
                 <div>
-                    <p>حمایت از سوی دانشگاه تهران</p    >
+                    <div>حمایت از سوی دانشگاه تهران</div>
                     <img src="assets/ut_logo" />
                 </div>
                 <div>
@@ -69,74 +73,75 @@
                     <br/>
                     با دانشگاه تهرانم این رلیم
                 </div>
-            </div>
+            </div> 
         </div> 
+        <script>
+            function fout(){
+                document.getElementById('1h').style.color = 'black';
+                document.getElementById('1h').classList.remove("active_hover");
+            }
+            function f(){
+                document.getElementById('1l').style.visibility = 'visible';
+                document.getElementById('1c').style.visibility = 'visible';
+                document.getElementById('2l').style.visibility = 'hidden';
+                document.getElementById('2c').style.visibility = 'hidden';
+                document.getElementById('3l').style.visibility = 'hidden';
+                document.getElementById('3c').style.visibility = 'hidden';
+                document.getElementById('4l').style.visibility = 'hidden';
+                document.getElementById('4c').style.visibility = 'hidden';
+                document.getElementById('1h').style.color = 'white';
+                document.getElementById('1h').classList.add("active_hover");
+                document.getElementById('2h').classList.remove("active_hover");
+                document.getElementById('3h').classList.remove("active_hover");
+                document.getElementById('4h').classList.remove("active_hover");
+            }
+            function g(){
+                document.getElementById('2l').style.visibility = 'visible';
+                document.getElementById('2c').style.visibility = 'visible';
+                document.getElementById('1l').style.visibility = 'hidden';
+                document.getElementById('1c').style.visibility = 'hidden';
+                document.getElementById('3l').style.visibility = 'hidden';
+                document.getElementById('3c').style.visibility = 'hidden';
+                document.getElementById('4l').style.visibility = 'hidden';
+                document.getElementById('4c').style.visibility = 'hidden';
+                document.getElementById('2h').classList.add("active_hover");
+                document.getElementById('1h').classList.remove("active_hover");
+                document.getElementById('3h').classList.remove("active_hover");
+                document.getElementById('4h').classList.remove("active_hover");
+            }
+            function h(){
+                document.getElementById('3l').style.visibility = 'visible';
+                document.getElementById('3c').style.visibility = 'visible';
+                document.getElementById('2l').style.visibility = 'hidden';
+                document.getElementById('2c').style.visibility = 'hidden';
+                document.getElementById('1l').style.visibility = 'hidden';
+                document.getElementById('1c').style.visibility = 'hidden';
+                document.getElementById('4l').style.visibility = 'hidden';
+                document.getElementById('4c').style.visibility = 'hidden';
+                document.getElementById('3h').classList.add("active_hover");
+                document.getElementById('1h').classList.remove("active_hover");
+                document.getElementById('2h').classList.remove("active_hover");
+                document.getElementById('4h').classList.remove("active_hover");
+            }
+            function j(){
+                document.getElementById('3l').style.visibility = 'hidden';
+                document.getElementById('3c').style.visibility = 'hidden';
+                document.getElementById('2l').style.visibility = 'hidden';
+                document.getElementById('2c').style.visibility = 'hidden';
+                document.getElementById('1l').style.visibility = 'hidden';
+                document.getElementById('1c').style.visibility = 'hidden';
+                document.getElementById('4l').style.visibility = 'visible';
+                document.getElementById('4c').style.visibility = 'visible';
+                document.getElementById('4h').classList.add("active_hover");
+                document.getElementById('1h').classList.remove("active_hover");
+                document.getElementById('2h').classList.remove("active_hover");
+                document.getElementById('3h').classList.remove("active_hover");
+            }
+        </script>
         <div class="hover_page">
             <img class="hover_page_background img-responsive" src="assets/hover_background" />
             <div class="hover_left">
-                <script>
-                    function fout(){
-                        document.getElementById('1h').style.color = 'black';
-                        document.getElementById('1h').classList.remove("active_hover");
-                    }
-                    function f(){
-                        document.getElementById('1l').style.visibility = 'visible';
-                        document.getElementById('1c').style.visibility = 'visible';
-                        document.getElementById('2l').style.visibility = 'hidden';
-                        document.getElementById('2c').style.visibility = 'hidden';
-                        document.getElementById('3l').style.visibility = 'hidden';
-                        document.getElementById('3c').style.visibility = 'hidden';
-                        document.getElementById('4l').style.visibility = 'hidden';
-                        document.getElementById('4c').style.visibility = 'hidden';
-                        document.getElementById('1h').style.color = 'white';
-                        document.getElementById('1h').classList.add("active_hover");
-                        document.getElementById('2h').classList.remove("active_hover");
-                        document.getElementById('3h').classList.remove("active_hover");
-                        document.getElementById('4h').classList.remove("active_hover");
-                    }
-                    function g(){
-                        document.getElementById('2l').style.visibility = 'visible';
-                        document.getElementById('2c').style.visibility = 'visible';
-                        document.getElementById('1l').style.visibility = 'hidden';
-                        document.getElementById('1c').style.visibility = 'hidden';
-                        document.getElementById('3l').style.visibility = 'hidden';
-                        document.getElementById('3c').style.visibility = 'hidden';
-                        document.getElementById('4l').style.visibility = 'hidden';
-                        document.getElementById('4c').style.visibility = 'hidden';
-                        document.getElementById('2h').classList.add("active_hover");
-                        document.getElementById('1h').classList.remove("active_hover");
-                        document.getElementById('3h').classList.remove("active_hover");
-                        document.getElementById('4h').classList.remove("active_hover");
-                    }
-                    function h(){
-                        document.getElementById('3l').style.visibility = 'visible';
-                        document.getElementById('3c').style.visibility = 'visible';
-                        document.getElementById('2l').style.visibility = 'hidden';
-                        document.getElementById('2c').style.visibility = 'hidden';
-                        document.getElementById('1l').style.visibility = 'hidden';
-                        document.getElementById('1c').style.visibility = 'hidden';
-                        document.getElementById('4l').style.visibility = 'hidden';
-                        document.getElementById('4c').style.visibility = 'hidden';
-                        document.getElementById('3h').classList.add("active_hover");
-                        document.getElementById('1h').classList.remove("active_hover");
-                        document.getElementById('2h').classList.remove("active_hover");
-                        document.getElementById('4h').classList.remove("active_hover");
-                    }
-                    function j(){
-                        document.getElementById('3l').style.visibility = 'hidden';
-                        document.getElementById('3c').style.visibility = 'hidden';
-                        document.getElementById('2l').style.visibility = 'hidden';
-                        document.getElementById('2c').style.visibility = 'hidden';
-                        document.getElementById('1l').style.visibility = 'hidden';
-                        document.getElementById('1c').style.visibility = 'hidden';
-                        document.getElementById('4l').style.visibility = 'visible';
-                        document.getElementById('4c').style.visibility = 'visible';
-                        document.getElementById('4h').classList.add("active_hover");
-                        document.getElementById('1h').classList.remove("active_hover");
-                        document.getElementById('2h').classList.remove("active_hover");
-                        document.getElementById('3h').classList.remove("active_hover");
-                    }
-                </script>
+                
                 <div class="hover_left_row">
                     <div>
                         <div id="4l">سنجش</div>
@@ -170,7 +175,7 @@
                     <div></div>
                     <div class="hover_left_row_rast_container">
                         <div class="hover_down">
-                            <img src="assets/zarebin2" />
+                            <img src="assets/zarebin2" class="img_fill_div" />
                         </div>
                     </div>
                 </div>
